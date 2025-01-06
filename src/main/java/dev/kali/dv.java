@@ -28,9 +28,9 @@ public class dv extends JavaPlugin implements TabExecutor {
     public void onEnable() {
         saveDefaultConfig();
         FileConfiguration config = getConfig();
-        requiredVotePercentage = config.getDouble("vote-percentage", 0.6); // Default to 60%
-        voteCooldown = config.getInt("vote-cooldown", 300); // Default to 5 minutes
-        maxVoteDuration = 30; // Override to 30 seconds for fixed duration
+        requiredVotePercentage = config.getDouble("vote-percentage", 0.6);
+        voteCooldown = config.getInt("vote-cooldown", 300);
+        maxVoteDuration = 30;
         getCommand("dv").setExecutor(this);
     }
 
