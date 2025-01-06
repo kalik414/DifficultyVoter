@@ -1,0 +1,8 @@
+# Percent players should vote "Yes" to apply difficulty (1.0 - 100%, def value - 0.6)
+vote-percentage: 0.6
+
+# Max time difficulty can be applied on server (minutes)
+max-vote-duration: 30
+
+# New vote starting cooldown (seconds)
+vote-cooldown: 200

@@ -1,0 +1,8 @@
+name: DifficultyVoter
+version: 0.1
+main: dev.kali.dv
+api-version: 1.21
+commands:
+  dv:
+    description: Changing server difficulty by players votes.
+    usage: /dv <easy | normal | hard> [number] or /dv vote <yes | no>
